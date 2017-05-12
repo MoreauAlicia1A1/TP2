@@ -1,16 +1,26 @@
+body {
+    background-image: url(img/snow.gif);
+    font-family: fantasy;
+}
+
+body a:link {
+    color: #F2F2F2;
+}
+
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: #F3F6F8;
 }
 
 #header
 {
-	background: #ccc;
+	background: #8BAEBA;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0; 
+color: #DCE6EA;}
 
 #navigation
 {
@@ -58,11 +68,13 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-color: #add8e6;
+    color : #3F3F3F;
 }
 
 #edito h2
 {
-	color: #000;
+	color: #FFFFFF;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -83,6 +95,12 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-color: #9bc2cf;
+    color: #3F3F3F;
+}
+
+#news h2 {
+        color: #FFFFFF;
 }
 
 #footer
@@ -92,4 +110,5 @@
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+    background-color: #8BAEBA;
 }
